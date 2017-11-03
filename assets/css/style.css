@@ -1,0 +1,141 @@
+body{
+    background-image: url(../images/dark_wall/dark_wall.png);
+    padding:10px;
+}
+
+#header{
+    width: 400px;
+    margin:auto;
+}
+
+#title{
+    width: 400px;
+    height: 250px;
+}
+
+#instructions{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #eee;
+    line-height: 1.5;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.character-home{
+    text-align:center;
+    width: 1235px;
+    margin:auto;
+}
+
+.picture{
+    width:200px;
+    height:300px;
+    position: relative;
+    float: left;
+    text-align: center;
+    margin: 20px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.name{
+    width:100%;
+    position: absolute;
+    bottom: .5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 3;
+}
+
+#blue{
+    /*background-color: #008b8b;*/
+    background-color: blue;
+}
+
+#brown{
+    /*background-color: #d2691e;*/
+    background-color: orange;
+}
+
+#silver{
+    /*background-color: #daa520;*/
+    background-color: yellow;
+}
+
+#green{
+    /*background-color: #556b2f;*/
+    background-color: green;
+}
+
+#red{
+    /*background-color: #dc143c;*/
+    background-color: red;
+}
+
+.clearfix::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+#main-game{
+    width:980px;
+    margin: auto;
+}
+
+.stats{
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    padding: 40px;
+    margin-top: 100px;
+    font-weight:bold;
+    background-color: #eee;
+}
+
+#vs{
+    float:left;
+    margin-top: 180px;
+    color: #eee;
+}
+
+#user-pic{
+    float:left;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    background-color: #696969;
+}
+
+#opponent-pic{
+    float:left;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    background-color: #696969;
+}
+
+.placeholderimage{
+    opacity: 0;
+}
+
+#attackbutton{
+    width:100px;
+    height: 50px;
+    border: solid 2px;
+    text-align:center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    
+}
+
+#attack-button{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}

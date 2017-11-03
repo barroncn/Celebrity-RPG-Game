@@ -9,7 +9,91 @@
     </head>
     
     <body>
+        <div id="header">
+            <img id="title" src="assets/images/header.png" alt="Battle of the OG's"></img>
+        </div>
+        <div id="instructions">
+            <p>
+                Battle with the OG's of action cinema. To play, first choose the
+                character you want to be. Then, choose the opponent you want to face.
+                When your ready to begin click attack. Players start with a certain 
+                amount of health and deliver each attack with a different amount of power.
+                With each attack, players health decreases. As you gain experience watch
+                your players attacks increase in power! 
+                <br>
+                If you can defeat all the other players you win!
+            </p>
+        </div>
         
+        <div class="character-home clearfix">
+            <div class="picture">
+                <img id="bruce" src="assets/images/Bru.jpg" alt="Bruce Willis Picture"></img>
+                <div class="name">
+                    <h4 id="blue">Bruce</h4>
+                </div>
+            </div>
+            <div class="picture">
+                <img id="harrison" src="assets/images/Harry.jpg" alt="Harrison Ford Picture"></img>
+                <div class="name">
+                    <h4 id="brown">Harrison</h4>
+                </div>
+            </div>
+            <div class="picture">
+                <img id="nicolas" src="assets/images/Nic.jpg" alt="Nicolas Cage Picture"></img>
+                <div class="name">
+                    <h4 id="silver">Nicolas</h4>
+                </div>
+            </div>
+            <div class="picture">
+                <img id="sylvester" src="assets/images/Sly.png" alt="Sylvester Stalone Picutre"></img>
+                <div class="name">
+                    <h4 id="green">Sylvester</h4>
+                </div>
+            </div>
+            <div class="picture">
+                <img id="wesley" src="assets/images/Wes.jpg" alt="Wesley Snipes Picture"></img>
+                <div class="name">
+                    <h4 id="red">Wesley</h4>
+                </div>
+            </div>
+        </div>
+        
+        <div id="main-game">
+            <div class="stats">
+                <p>Health: <span id="uh">___</span></p>
+                <br>
+                <br>
+                <p>Power: <span id="up">___</span></p>
+            </div>
+            <div id="user-pic">
+                <div class="picture placeholderimage">
+                    <img src="assets/images/Bru.jpg" alt="Bruce Willis Picture"></img>
+                    <div class="name">
+                        <h4 id="blue">Bruce</h4>
+                    </div>
+                </div>    
+            </div>
+            <div>
+                <h2 id="vs">VS</h2>
+            </div>
+            <div id="opponent-pic">
+                <div class="picture placeholderimage">
+                <img src="assets/images/Bru.jpg" alt="Bruce Willis Picture"></img>
+                <div class="name">
+                    <h4 id="blue">Bruce</h4>
+                </div>
+            </div>
+            </div>
+            <div class="stats">
+                <p>Health: <span id="oh">___</span></p>
+                <br>
+                <br>
+                <p>Power: <span id="op">___</span></p>
+            </div>
+        </div>
+        <div id="attack-button">
+            <button id="attackbutton">Attack!</button>
+        </div>
         
         <script type="text/javascript" src="assets/javascript/game.js"></script>
     </body>
