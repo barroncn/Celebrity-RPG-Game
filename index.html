@@ -25,7 +25,7 @@
             </p>
         </div>
         
-        <div class="character-home clearfix">
+        <div class="clearfix" id="character-home">
             <div class="picture">
                 <img id="bruce" src="assets/images/Bru.jpg" alt="Bruce Willis Picture"></img>
                 <div class="name">
@@ -35,13 +35,13 @@
             <div class="picture">
                 <img id="harrison" src="assets/images/Harry.jpg" alt="Harrison Ford Picture"></img>
                 <div class="name">
-                    <h4 id="brown">Harrison</h4>
+                    <h4 id="orange">Harrison</h4>
                 </div>
             </div>
             <div class="picture">
-                <img id="nicolas" src="assets/images/Nic.jpg" alt="Nicolas Cage Picture"></img>
+                <img id="arnold" src="assets/images/Arny.jpg" alt="Arnold Schwarzenegger Picture"></img>
                 <div class="name">
-                    <h4 id="silver">Nicolas</h4>
+                    <h4 id="yellow">Arnold</h4>
                 </div>
             </div>
             <div class="picture">
@@ -60,40 +60,40 @@
         
         <div id="main-game">
             <div class="stats">
+                <p class="who">Player</p>
+                <p id="user-name"></p>
+                <br>
                 <p>Health: <span id="uh">___</span></p>
                 <br>
                 <br>
-                <p>Power: <span id="up">___</span></p>
+                <p>Power: <span id="up">___</span></span></p>
             </div>
-            <div id="user-pic">
-                <div class="picture placeholderimage">
-                    <img src="assets/images/Bru.jpg" alt="Bruce Willis Picture"></img>
-                    <div class="name">
-                        <h4 id="blue">Bruce</h4>
-                    </div>
+            <div id="user-pic" width="200px" height="255px">
+                <div id="upp" class="picture placeholderimage">
+                    <img src="assets/images/Bru.jpg" alt="blank"></img>
                 </div>    
             </div>
             <div>
                 <h2 id="vs">VS</h2>
             </div>
             <div id="opponent-pic">
-                <div class="picture placeholderimage">
-                <img src="assets/images/Bru.jpg" alt="Bruce Willis Picture"></img>
-                <div class="name">
-                    <h4 id="blue">Bruce</h4>
-                </div>
+                <div id="opp" class="picture placeholderimage">
+                <img src="assets/images/Bru.jpg" alt="Blank"></img>
             </div>
             </div>
-            <div class="stats">
+            <div id="oppStats">
+                <p class="who">Opponent</p>
+                <p id="opp-name"></p>
+                <br>
                 <p>Health: <span id="oh">___</span></p>
                 <br>
                 <br>
                 <p>Power: <span id="op">___</span></p>
             </div>
         </div>
-        <div id="attack-button">
+        <footer id="attack-button">
             <button id="attackbutton">Attack!</button>
-        </div>
+        </footer>
         
         <script type="text/javascript" src="assets/javascript/game.js"></script>
     </body>

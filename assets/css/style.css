@@ -23,7 +23,7 @@ body{
     padding: 10px;
 }
 
-.character-home{
+#character-home{
     text-align:center;
     width: 1235px;
     margin:auto;
@@ -54,12 +54,12 @@ body{
     background-color: blue;
 }
 
-#brown{
+#orange{
     /*background-color: #d2691e;*/
     background-color: orange;
 }
 
-#silver{
+#yellow{
     /*background-color: #daa520;*/
     background-color: yellow;
 }
@@ -90,7 +90,17 @@ body{
     border-style: solid;
     border-width: 1px;
     padding: 40px;
-    margin-top: 100px;
+    margin-top: 70px;
+    font-weight:bold;
+    background-color: #eee;
+}
+
+#oppStats{
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    padding: 40px;
+    margin-top: 70px;
     font-weight:bold;
     background-color: #eee;
 }
@@ -123,8 +133,18 @@ body{
     opacity: 0;
 }
 
+footer{
+    text-align: center;
+	padding-top: 20px;
+	padding-bottom:20px;
+	height: 35px;
+    width: 175px;
+    margin: auto;
+    clear: both;
+}
+
 #attackbutton{
-    width:100px;
+    width:150px;
     height: 50px;
     border: solid 2px;
     text-align:center;
@@ -134,8 +154,21 @@ body{
     
 }
 
-#attack-button{
-    width: 400px;
+#user-name{
+    width:100%;
     text-align: center;
-    margin: auto;
+    line-height: 2;
+}
+
+#opp-name{
+    width:100%;
+    text-align: center;
+    line-height: 2;
+}
+
+.who{
+    text-decoration: underline;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
 }
