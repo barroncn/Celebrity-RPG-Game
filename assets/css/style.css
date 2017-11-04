@@ -83,6 +83,7 @@ body{
 #main-game{
     width:980px;
     margin: auto;
+    text-align: center;
 }
 
 .stats{
