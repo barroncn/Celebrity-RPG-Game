@@ -50,27 +50,22 @@ body{
 }
 
 #blue{
-    /*background-color: #008b8b;*/
     background-color: blue;
 }
 
 #orange{
-    /*background-color: #d2691e;*/
     background-color: orange;
 }
 
 #yellow{
-    /*background-color: #daa520;*/
     background-color: yellow;
 }
 
 #green{
-    /*background-color: #556b2f;*/
     background-color: green;
 }
 
 #red{
-    /*background-color: #dc143c;*/
     background-color: red;
 }
 
@@ -81,7 +76,7 @@ body{
 }
 
 #main-game{
-    width:980px;
+    width:870px;
     margin: auto;
     text-align: center;
 }
@@ -119,6 +114,8 @@ body{
     border-width: 1px;
     margin: 10px;
     background-color: #696969;
+    max-height: 255px;
+    max-width: 200px;
 }
 
 #opponent-pic{
@@ -128,6 +125,8 @@ body{
     border-width: 1px;
     margin: 10px;
     background-color: #696969;
+    max-height: 255px;
+    max-width: 200px;
 }
 
 .placeholderimage{
@@ -152,7 +151,6 @@ footer{
     font-weight: bold;
     font-size: 18px;
     padding: 5px;
-    
 }
 
 #user-name{
