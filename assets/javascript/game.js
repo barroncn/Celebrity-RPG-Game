@@ -137,7 +137,7 @@ function checkScore(){
     }
                         
     else if(parseInt($("#uh").text()) === 0){
-        alert("Didn't get the best of him this time! Try again!");
+        alert("Didn't get him this time! Try again!");
         reSet();
     }
 }
