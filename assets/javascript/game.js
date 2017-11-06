@@ -16,19 +16,19 @@ var players = {
     oppIndex: null, //This will be the index of the opponent within the arrays
     userIndex: null, //This will be the index of the user within the arrays
     winsCount: 0, //This allows us to keep count of how many opponents have been faced so we'll know when to end the game
-    theIndexesUser: function(){ // This function sets the index of the user
+    theIndexesUser: function(){ // This method sets the index of the user
             this.theUser = $("#uh").text();
             this.userIndex = this.health.indexOf(parseInt(this.theUser, 10));
     },
     
-    //This function sets the index of the opponent
+    //This method sets the index of the opponent
     theIndexesOpp: function(){ 
             this.theOpp = $("#oh").text();
             this.oppIndex = this.health.indexOf(parseInt(this.theOpp, 10));
     },
       
       
-    //This function sets our players. The first player clicked is the users player and the index is set
+    //This method sets our players. The first player clicked is the users player and the index is set
     //The second player clicked is the opponent and the index is set. THe names and stats are moved to the stats box.        
     setPlayers: function(name){ 
             var theIndex = this.name.indexOf(name);
@@ -55,7 +55,7 @@ var players = {
             }
     },
     
-    //This function changes the scores when the attack button is clicked.           
+    //This method changes the scores when the attack button is clicked.           
     clickAttack: function(){ 
             if (this.isPlayer === false && this.finishGame === true && parseInt($("#oh").text()) != 0 && parseInt($("#uh").text()) != 0){
                 var userPower = this.attack[this.userIndex] * this.multiplier;
@@ -120,7 +120,7 @@ function reSet(){
     players.winsCount = 0;
 }
 
-// Restore opponent after he's lost
+// Clear opponent after he's lost
 function resetOpp(){
     $("#opponent-pic").replaceWith(originalStateOppPic.clone(true));
     $("#oppStats").replaceWith(originalStateOppStats.clone(true));
