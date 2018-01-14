@@ -1,4 +1,4 @@
-Celebrity RPG Game
+# Celebrity RPG Game
 
 [Check it out here!](https://barroncn.github.io/Celebrity-RPG-Game/)
 
